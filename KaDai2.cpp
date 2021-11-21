@@ -16,6 +16,7 @@ private:
 class Chuli : public Object
 {
 public:
+virtual void Update(){}
 	Chuli() {
 		speed = 0;
 		accel = 0;
